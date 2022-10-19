@@ -24,3 +24,5 @@ button {padding: 10px 20px;
                 color: aliceblue;}
 
 a:hover {background-color: rgb(65, 57, 57);}
+
+.drpcontent:hover .drpcontent {display: block;}
