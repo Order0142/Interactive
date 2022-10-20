@@ -8,7 +8,7 @@ header {background-color: black;
         border-radius: 5px;}
 
 .dropdown {position: relative;
-            display: block;}
+            display: inline-block;}
 
 button {padding: 10px 20px;
         margin-top: 5px;
