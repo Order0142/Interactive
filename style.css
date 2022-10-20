@@ -7,22 +7,28 @@ header {background-color: black;
         padding: 10px;
         border-radius: 5px;}
 
+.dropdown {position: relative;
+            display: inline-block;}
+
 button {padding: 10px 20px;
         margin-top: 5px;
         border: none;
         background-color:cadetblue;
         color:antiquewhite;
-        position: relative;}
+        }
+
+.drpbtn:hover {background-color:rgb(23, 124, 128);}
 
 .drpcontent {display: inline-block;
             }
 
-.drpcontent a {display: none;
-                text-decoration: none;
-                padding: 7px;
-                background-color: darkgray;
-                color: aliceblue;}
+.drpcontent a {
+            display: none;
+            text-decoration: none;
+            padding: 7px;
+            background-color: darkgray;
+            color: aliceblue;}
 
 a:hover {background-color: rgb(65, 57, 57);}
 
-.drpcontent:hover .drpcontent {display: block;}
+.drpbtn:hover .drpcontent {display: block;}
